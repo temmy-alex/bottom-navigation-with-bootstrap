@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        @media (min-width: 320px) and (max-width: 320px) {
+            .caption-menu {
+                font-size: 0.8em;
+            }
+
+            .nav-link i {
+                font-size: 0.8em;
+            }
+
+            .brand-navbar {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Desktop Menu -->
+    <div class="container-fluid d-none d-sm-block">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid d-md-none d-lg-none d-xxl-none">
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand brand-navbar">Web</a>
+                <div class="d-flex">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Bottom Navigation for Responsive Mode -->
+    <nav class="navbar navbar-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xxl-none">
+        <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fa-solid fa-house fa-fw text-white"></i>
+                </a>
+                <span class="caption-menu">Home</span>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fa-solid fa-envelope fa-fw text-white"></i>
+                </a>
+                <span class="caption-menu">Email</span>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fa-brands fa-youtube text-white"></i>
+                </a>
+                <span class="caption-menu">Youtube</span>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+                <span class="caption-menu">Instagram</span>
+            </li>
+            <li class="nav-item">
+                <a href="others.html" class="nav-link">
+                    <i class="fa-solid fa-share-from-square text-white"></i>
+                </a>
+                <span class="caption-menu">Others</span>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
